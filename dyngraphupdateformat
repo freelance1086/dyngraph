@@ -1,0 +1,513 @@
+Sub Actualizar_Graficas()
+'
+' Actualizar Querys y Graficas Macro
+'
+    ActiveWorkbook.RefreshAll
+'
+' Graficas de Accesibilidad
+    Sheets("Acc Analysis").Select
+    ActiveSheet.ChartObjects("graf_Acc_S1").Activate
+    ActiveChart.ApplyChartTemplate ( _
+        "C:\Users\Fredy Avellan\AppData\Roaming\Microsoft\Templates\Charts\Acc_NIC.crtx" _
+        )
+    ActiveChart.ChartTitle.Select
+    ActiveChart.ChartTitle.Text = "Accesibility % / Sector - S1"
+    Selection.Format.TextFrame2.TextRange.Characters.Text = _
+        "Accesibility % / Sector - S1"
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 28).ParagraphFormat
+        .TextDirection = msoTextDirectionLeftToRight
+        .Alignment = msoAlignCenter
+    End With
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 28).Font
+        .BaselineOffset = 0
+        .Bold = msoTrue
+        .NameComplexScript = "+mn-cs"
+        .NameFarEast = "+mn-ea"
+        .Fill.Visible = msoTrue
+        .Fill.ForeColor.RGB = RGB(0, 0, 0)
+        .Fill.Transparency = 0
+        .Fill.Solid
+        .Size = 20
+        .Italic = msoFalse
+        .Kerning = 12
+        .Name = "+mn-lt"
+        .UnderlineStyle = msoNoUnderline
+        .Spacing = 0
+        .Strike = msoNoStrike
+    End With
+'    ActiveChart.ChartArea.Select
+
+        
+    ActiveSheet.ChartObjects("graf_Acc_S2").Activate
+    ActiveChart.ApplyChartTemplate ( _
+        "C:\Users\Fredy Avellan\AppData\Roaming\Microsoft\Templates\Charts\Acc_NIC.crtx" _
+        )
+    ActiveChart.ChartTitle.Select
+    ActiveChart.ChartTitle.Text = "Accesibility % / Sector - S2"
+    Selection.Format.TextFrame2.TextRange.Characters.Text = _
+        "Accesibility % / Sector - S2"
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 28).ParagraphFormat
+        .TextDirection = msoTextDirectionLeftToRight
+        .Alignment = msoAlignCenter
+    End With
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 28).Font
+        .BaselineOffset = 0
+        .Bold = msoTrue
+        .NameComplexScript = "+mn-cs"
+        .NameFarEast = "+mn-ea"
+        .Fill.Visible = msoTrue
+        .Fill.ForeColor.RGB = RGB(0, 0, 0)
+        .Fill.Transparency = 0
+        .Fill.Solid
+        .Size = 20
+        .Italic = msoFalse
+        .Kerning = 12
+        .Name = "+mn-lt"
+        .UnderlineStyle = msoNoUnderline
+        .Spacing = 0
+        .Strike = msoNoStrike
+    End With
+'    ActiveChart.ChartArea.Select
+
+    ActiveSheet.ChartObjects("graf_Acc_S3").Activate
+    ActiveChart.ApplyChartTemplate ( _
+        "C:\Users\Fredy Avellan\AppData\Roaming\Microsoft\Templates\Charts\Acc_NIC.crtx" _
+        )
+    ActiveChart.ChartTitle.Select
+    ActiveChart.ChartTitle.Text = "Accesibility % / Sector - S3"
+    Selection.Format.TextFrame2.TextRange.Characters.Text = _
+        "Accesibility % / Sector - S3"
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 28).ParagraphFormat
+        .TextDirection = msoTextDirectionLeftToRight
+        .Alignment = msoAlignCenter
+    End With
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 28).Font
+        .BaselineOffset = 0
+        .Bold = msoTrue
+        .NameComplexScript = "+mn-cs"
+        .NameFarEast = "+mn-ea"
+        .Fill.Visible = msoTrue
+        .Fill.ForeColor.RGB = RGB(0, 0, 0)
+        .Fill.Transparency = 0
+        .Fill.Solid
+        .Size = 20
+        .Italic = msoFalse
+        .Kerning = 12
+        .Name = "+mn-lt"
+        .UnderlineStyle = msoNoUnderline
+        .Spacing = 0
+        .Strike = msoNoStrike
+    End With
+'    ActiveChart.ChartArea.Select
+        
+        
+    ActiveSheet.ChartObjects("graf_Acc_S4").Activate
+    ActiveChart.ApplyChartTemplate ( _
+        "C:\Users\Fredy Avellan\AppData\Roaming\Microsoft\Templates\Charts\Acc_NIC.crtx" _
+        )
+    ActiveChart.ChartTitle.Select
+    ActiveChart.ChartTitle.Text = "Accesibility % / Sector - S4"
+    Selection.Format.TextFrame2.TextRange.Characters.Text = _
+        "Accesibility % / Sector - S4"
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 28).ParagraphFormat
+        .TextDirection = msoTextDirectionLeftToRight
+        .Alignment = msoAlignCenter
+    End With
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 28).Font
+        .BaselineOffset = 0
+        .Bold = msoTrue
+        .NameComplexScript = "+mn-cs"
+        .NameFarEast = "+mn-ea"
+        .Fill.Visible = msoTrue
+        .Fill.ForeColor.RGB = RGB(0, 0, 0)
+        .Fill.Transparency = 0
+        .Fill.Solid
+        .Size = 20
+        .Italic = msoFalse
+        .Kerning = 12
+        .Name = "+mn-lt"
+        .UnderlineStyle = msoNoUnderline
+        .Spacing = 0
+        .Strike = msoNoStrike
+    End With
+'    ActiveChart.ChartArea.Select
+        
+    ActiveSheet.ChartObjects("graf_Acc_S1_SAO").Activate
+    ActiveChart.ApplyChartTemplate ( _
+        "C:\Users\Fredy Avellan\AppData\Roaming\Microsoft\Templates\Charts\Acc_NIC.crtx" _
+        )
+    ActiveChart.ChartTitle.Select
+    ActiveChart.ChartTitle.Text = "Accesibility % / Sector - S1 SAO"
+    Selection.Format.TextFrame2.TextRange.Characters.Text = _
+        "Accesibility % / Sector - S1 SAO"
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 28).ParagraphFormat
+        .TextDirection = msoTextDirectionLeftToRight
+        .Alignment = msoAlignCenter
+    End With
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 28).Font
+        .BaselineOffset = 0
+        .Bold = msoTrue
+        .NameComplexScript = "+mn-cs"
+        .NameFarEast = "+mn-ea"
+        .Fill.Visible = msoTrue
+        .Fill.ForeColor.RGB = RGB(0, 0, 0)
+        .Fill.Transparency = 0
+        .Fill.Solid
+        .Size = 20
+        .Italic = msoFalse
+        .Kerning = 12
+        .Name = "+mn-lt"
+        .UnderlineStyle = msoNoUnderline
+        .Spacing = 0
+        .Strike = msoNoStrike
+    End With
+'    ActiveChart.ChartArea.Select
+        
+    ActiveSheet.ChartObjects("graf_Acc_S2_SAO").Activate
+    ActiveChart.ApplyChartTemplate ( _
+        "C:\Users\Fredy Avellan\AppData\Roaming\Microsoft\Templates\Charts\Acc_NIC.crtx" _
+        )
+    ActiveChart.ChartTitle.Select
+    ActiveChart.ChartTitle.Text = "Accesibility % / Sector - S2 SAO"
+    Selection.Format.TextFrame2.TextRange.Characters.Text = _
+        "Accesibility % / Sector - S2 SAO"
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 28).ParagraphFormat
+        .TextDirection = msoTextDirectionLeftToRight
+        .Alignment = msoAlignCenter
+    End With
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 28).Font
+        .BaselineOffset = 0
+        .Bold = msoTrue
+        .NameComplexScript = "+mn-cs"
+        .NameFarEast = "+mn-ea"
+        .Fill.Visible = msoTrue
+        .Fill.ForeColor.RGB = RGB(0, 0, 0)
+        .Fill.Transparency = 0
+        .Fill.Solid
+        .Size = 20
+        .Italic = msoFalse
+        .Kerning = 12
+        .Name = "+mn-lt"
+        .UnderlineStyle = msoNoUnderline
+        .Spacing = 0
+        .Strike = msoNoStrike
+    End With
+'    ActiveChart.ChartArea.Select
+        
+    ActiveSheet.ChartObjects("graf_Acc_S3_SAO").Activate
+    ActiveChart.ApplyChartTemplate ( _
+        "C:\Users\Fredy Avellan\AppData\Roaming\Microsoft\Templates\Charts\Acc_NIC.crtx" _
+        )
+    ActiveChart.ChartTitle.Select
+    ActiveChart.ChartTitle.Text = "Accesibility % / Sector - S3 SAO"
+    Selection.Format.TextFrame2.TextRange.Characters.Text = _
+        "Accesibility % / Sector - S3 SAO"
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 28).ParagraphFormat
+        .TextDirection = msoTextDirectionLeftToRight
+        .Alignment = msoAlignCenter
+    End With
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 28).Font
+        .BaselineOffset = 0
+        .Bold = msoTrue
+        .NameComplexScript = "+mn-cs"
+        .NameFarEast = "+mn-ea"
+        .Fill.Visible = msoTrue
+        .Fill.ForeColor.RGB = RGB(0, 0, 0)
+        .Fill.Transparency = 0
+        .Fill.Solid
+        .Size = 20
+        .Italic = msoFalse
+        .Kerning = 12
+        .Name = "+mn-lt"
+        .UnderlineStyle = msoNoUnderline
+        .Spacing = 0
+        .Strike = msoNoStrike
+    End With
+'    ActiveChart.ChartArea.Select
+        
+    ActiveSheet.ChartObjects("graf_Acc_S4_SAO").Activate
+    ActiveChart.ApplyChartTemplate ( _
+        "C:\Users\Fredy Avellan\AppData\Roaming\Microsoft\Templates\Charts\Acc_NIC.crtx" _
+        )
+    ActiveChart.ChartTitle.Select
+    ActiveChart.ChartTitle.Text = "Accesibility % / Sector - S4 SAO"
+    Selection.Format.TextFrame2.TextRange.Characters.Text = _
+        "Accesibility % / Sector - S4 SAO"
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 28).ParagraphFormat
+        .TextDirection = msoTextDirectionLeftToRight
+        .Alignment = msoAlignCenter
+    End With
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 28).Font
+        .BaselineOffset = 0
+        .Bold = msoTrue
+        .NameComplexScript = "+mn-cs"
+        .NameFarEast = "+mn-ea"
+        .Fill.Visible = msoTrue
+        .Fill.ForeColor.RGB = RGB(0, 0, 0)
+        .Fill.Transparency = 0
+        .Fill.Solid
+        .Size = 20
+        .Italic = msoFalse
+        .Kerning = 12
+        .Name = "+mn-lt"
+        .UnderlineStyle = msoNoUnderline
+        .Spacing = 0
+        .Strike = msoNoStrike
+    End With
+'    ActiveChart.ChartArea.Select
+
+
+' Graficas de PRBs
+        
+    Sheets("PRB Analysis").Select
+    ActiveSheet.ChartObjects("graf_Prb_Util_S1").Activate
+    ActiveChart.ApplyChartTemplate ( _
+        "C:\Users\Fredy Avellan\AppData\Roaming\Microsoft\Templates\Charts\PrbUtil_Nic.crtx" _
+        )
+    ActiveChart.ChartTitle.Select
+    ActiveChart.ChartTitle.Text = "DL PRB Utilization % - S1"
+    Selection.Format.TextFrame2.TextRange.Characters.Text = _
+        "DL PRB Utilization % - S1"
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 25).ParagraphFormat
+        .TextDirection = msoTextDirectionLeftToRight
+        .Alignment = msoAlignCenter
+    End With
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 25).Font
+        .BaselineOffset = 0
+        .Bold = msoTrue
+        .NameComplexScript = "+mn-cs"
+        .NameFarEast = "+mn-ea"
+        .Fill.Visible = msoTrue
+        .Fill.ForeColor.RGB = RGB(0, 0, 0)
+        .Fill.Transparency = 0
+        .Fill.Solid
+        .Size = 20
+        .Italic = msoFalse
+        .Kerning = 12
+        .Name = "+mn-lt"
+        .UnderlineStyle = msoNoUnderline
+        .Spacing = 0
+        .Strike = msoNoStrike
+    End With
+'    ActiveChart.ChartArea.Select
+        
+    ActiveSheet.ChartObjects("graf_Prb_Util_S2").Activate
+    ActiveChart.ApplyChartTemplate ( _
+        "C:\Users\Fredy Avellan\AppData\Roaming\Microsoft\Templates\Charts\PrbUtil_Nic.crtx" _
+        )
+    ActiveChart.ChartTitle.Select
+    ActiveChart.ChartTitle.Text = "DL PRB Utilization % - S2"
+    Selection.Format.TextFrame2.TextRange.Characters.Text = _
+        "DL PRB Utilization % - S2"
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 25).ParagraphFormat
+        .TextDirection = msoTextDirectionLeftToRight
+        .Alignment = msoAlignCenter
+    End With
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 25).Font
+        .BaselineOffset = 0
+        .Bold = msoTrue
+        .NameComplexScript = "+mn-cs"
+        .NameFarEast = "+mn-ea"
+        .Fill.Visible = msoTrue
+        .Fill.ForeColor.RGB = RGB(0, 0, 0)
+        .Fill.Transparency = 0
+        .Fill.Solid
+        .Size = 20
+        .Italic = msoFalse
+        .Kerning = 12
+        .Name = "+mn-lt"
+        .UnderlineStyle = msoNoUnderline
+        .Spacing = 0
+        .Strike = msoNoStrike
+    End With
+'    ActiveChart.ChartArea.Select
+        		
+    ActiveSheet.ChartObjects("graf_Prb_Util_S3").Activate
+    ActiveChart.ApplyChartTemplate ( _
+        "C:\Users\Fredy Avellan\AppData\Roaming\Microsoft\Templates\Charts\PrbUtil_Nic.crtx" _
+        )
+    ActiveChart.ChartTitle.Select
+    ActiveChart.ChartTitle.Text = "DL PRB Utilization % - S3"
+    Selection.Format.TextFrame2.TextRange.Characters.Text = _
+        "DL PRB Utilization % - S3"
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 25).ParagraphFormat
+        .TextDirection = msoTextDirectionLeftToRight
+        .Alignment = msoAlignCenter
+    End With
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 25).Font
+        .BaselineOffset = 0
+        .Bold = msoTrue
+        .NameComplexScript = "+mn-cs"
+        .NameFarEast = "+mn-ea"
+        .Fill.Visible = msoTrue
+        .Fill.ForeColor.RGB = RGB(0, 0, 0)
+        .Fill.Transparency = 0
+        .Fill.Solid
+        .Size = 20
+        .Italic = msoFalse
+        .Kerning = 12
+        .Name = "+mn-lt"
+        .UnderlineStyle = msoNoUnderline
+        .Spacing = 0
+        .Strike = msoNoStrike
+    End With
+'    ActiveChart.ChartArea.Select
+        		
+    ActiveSheet.ChartObjects("graf_Prb_Util_S4").Activate
+    ActiveChart.ApplyChartTemplate ( _
+        "C:\Users\Fredy Avellan\AppData\Roaming\Microsoft\Templates\Charts\PrbUtil_Nic.crtx" _
+        )
+    ActiveChart.ChartTitle.Select
+    ActiveChart.ChartTitle.Text = "DL PRB Utilization % - S4"
+    Selection.Format.TextFrame2.TextRange.Characters.Text = _
+        "DL PRB Utilization % - S4"
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 25).ParagraphFormat
+        .TextDirection = msoTextDirectionLeftToRight
+        .Alignment = msoAlignCenter
+    End With
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 25).Font
+        .BaselineOffset = 0
+        .Bold = msoTrue
+        .NameComplexScript = "+mn-cs"
+        .NameFarEast = "+mn-ea"
+        .Fill.Visible = msoTrue
+        .Fill.ForeColor.RGB = RGB(0, 0, 0)
+        .Fill.Transparency = 0
+        .Fill.Solid
+        .Size = 20
+        .Italic = msoFalse
+        .Kerning = 12
+        .Name = "+mn-lt"
+        .UnderlineStyle = msoNoUnderline
+        .Spacing = 0
+        .Strike = msoNoStrike
+    End With
+'    ActiveChart.ChartArea.Select
+        		
+    ActiveSheet.ChartObjects("graf_Prb_Util_S1_SAO").Activate
+    ActiveChart.ApplyChartTemplate ( _
+        "C:\Users\Fredy Avellan\AppData\Roaming\Microsoft\Templates\Charts\PrbUtil_Nic.crtx" _
+        )
+    ActiveChart.ChartTitle.Select
+    ActiveChart.ChartTitle.Text = "DL PRB Utilization % - S1 SAO"
+    Selection.Format.TextFrame2.TextRange.Characters.Text = _
+        "DL PRB Utilization % - S1 SAO"
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 25).ParagraphFormat
+        .TextDirection = msoTextDirectionLeftToRight
+        .Alignment = msoAlignCenter
+    End With
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 25).Font
+        .BaselineOffset = 0
+        .Bold = msoTrue
+        .NameComplexScript = "+mn-cs"
+        .NameFarEast = "+mn-ea"
+        .Fill.Visible = msoTrue
+        .Fill.ForeColor.RGB = RGB(0, 0, 0)
+        .Fill.Transparency = 0
+        .Fill.Solid
+        .Size = 20
+        .Italic = msoFalse
+        .Kerning = 12
+        .Name = "+mn-lt"
+        .UnderlineStyle = msoNoUnderline
+        .Spacing = 0
+        .Strike = msoNoStrike
+    End With
+'    ActiveChart.ChartArea.Select
+        		
+    ActiveSheet.ChartObjects("graf_Prb_Util_S2_SAO").Activate
+    ActiveChart.ApplyChartTemplate ( _
+        "C:\Users\Fredy Avellan\AppData\Roaming\Microsoft\Templates\Charts\PrbUtil_Nic.crtx" _
+        )
+    ActiveChart.ChartTitle.Select
+    ActiveChart.ChartTitle.Text = "DL PRB Utilization % - S2 SAO"
+    Selection.Format.TextFrame2.TextRange.Characters.Text = _
+        "DL PRB Utilization % - S2 SAO"
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 25).ParagraphFormat
+        .TextDirection = msoTextDirectionLeftToRight
+        .Alignment = msoAlignCenter
+    End With
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 25).Font
+        .BaselineOffset = 0
+        .Bold = msoTrue
+        .NameComplexScript = "+mn-cs"
+        .NameFarEast = "+mn-ea"
+        .Fill.Visible = msoTrue
+        .Fill.ForeColor.RGB = RGB(0, 0, 0)
+        .Fill.Transparency = 0
+        .Fill.Solid
+        .Size = 20
+        .Italic = msoFalse
+        .Kerning = 12
+        .Name = "+mn-lt"
+        .UnderlineStyle = msoNoUnderline
+        .Spacing = 0
+        .Strike = msoNoStrike
+    End With
+'    ActiveChart.ChartArea.Select
+        		
+    ActiveSheet.ChartObjects("graf_Prb_Util_S3_SAO").Activate
+    ActiveChart.ApplyChartTemplate ( _
+        "C:\Users\Fredy Avellan\AppData\Roaming\Microsoft\Templates\Charts\PrbUtil_Nic.crtx" _
+        )
+    ActiveChart.ChartTitle.Select
+    ActiveChart.ChartTitle.Text = "DL PRB Utilization % - S3 SAO"
+    Selection.Format.TextFrame2.TextRange.Characters.Text = _
+        "DL PRB Utilization % - S3 SAO"
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 25).ParagraphFormat
+        .TextDirection = msoTextDirectionLeftToRight
+        .Alignment = msoAlignCenter
+    End With
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 25).Font
+        .BaselineOffset = 0
+        .Bold = msoTrue
+        .NameComplexScript = "+mn-cs"
+        .NameFarEast = "+mn-ea"
+        .Fill.Visible = msoTrue
+        .Fill.ForeColor.RGB = RGB(0, 0, 0)
+        .Fill.Transparency = 0
+        .Fill.Solid
+        .Size = 20
+        .Italic = msoFalse
+        .Kerning = 12
+        .Name = "+mn-lt"
+        .UnderlineStyle = msoNoUnderline
+        .Spacing = 0
+        .Strike = msoNoStrike
+    End With
+'    ActiveChart.ChartArea.Select
+        		
+    ActiveSheet.ChartObjects("graf_Prb_Util_S4_SAO").Activate
+    ActiveChart.ApplyChartTemplate ( _
+        "C:\Users\Fredy Avellan\AppData\Roaming\Microsoft\Templates\Charts\PrbUtil_Nic.crtx" _
+        )
+    ActiveChart.ChartTitle.Select
+    ActiveChart.ChartTitle.Text = "DL PRB Utilization % - S4 SAO"
+    Selection.Format.TextFrame2.TextRange.Characters.Text = _
+        "DL PRB Utilization % - S4 SAO"
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 25).ParagraphFormat
+        .TextDirection = msoTextDirectionLeftToRight
+        .Alignment = msoAlignCenter
+    End With
+    With Selection.Format.TextFrame2.TextRange.Characters(1, 25).Font
+        .BaselineOffset = 0
+        .Bold = msoTrue
+        .NameComplexScript = "+mn-cs"
+        .NameFarEast = "+mn-ea"
+        .Fill.Visible = msoTrue
+        .Fill.ForeColor.RGB = RGB(0, 0, 0)
+        .Fill.Transparency = 0
+        .Fill.Solid
+        .Size = 20
+        .Italic = msoFalse
+        .Kerning = 12
+        .Name = "+mn-lt"
+        .UnderlineStyle = msoNoUnderline
+        .Spacing = 0
+        .Strike = msoNoStrike
+    End With
+'    ActiveChart.ChartArea.Select
+        		
+End Sub
+
+
